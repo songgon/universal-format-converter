@@ -2,6 +2,27 @@
 
 一个本地桌面程序（Python + PySide6），支持**图片、文档、数据表格、音视频**四大类文件批量互转，无需联网，文件不出本机。
 
+> **简体中文** | [English](#english)
+
+## 📥 下载
+
+**普通用户**：到 [Releases](https://github.com/songgon/universal-format-converter/releases) 下载**绿色免安装版**（约 377MB），解压后双击 `万能格式转换器.exe` 即可使用，无需安装 Python 或任何依赖（Windows 10/11 x64）。
+
+## English
+
+**Universal Format Converter** — a local, offline desktop tool (Python + PySide6) for batch-converting images, documents, data files, and audio/video. 100% offline: your files never leave your machine.
+
+- **Get it**: download the portable build from [Releases](https://github.com/songgon/universal-format-converter/releases) — unzip and double-click `万能格式转换器.exe`. No installation, no Python required (Windows 10/11 x64).
+- **Images**: PNG JPG WEBP BMP GIF TIFF ICO SVG HEIC → PNG JPG WEBP BMP GIF TIFF ICO **PDF** (multiple images can be merged into one PDF)
+- **Documents**: TXT MD HTML DOCX DOC PDF RTF PPTX PPT → TXT MD HTML DOCX **PDF** (plus PDF → PNG/JPG pages)
+- **Data**: CSV TSV JSON YAML XML TOML XLSX → CSV TSV XLSX JSON YAML XML TOML **MD/HTML/PDF tables**
+- **Audio/Video**: MP3 WAV FLAC M4A AAC OGG OPUS WMA / MP4 MKV AVI MOV WEBM WMV FLV → common formats + GIF
+- **Extras**: high-fidelity PDF engine via LibreOffice (free & open source), Pandoc engine for Markdown, PDF split/merge/encrypt/decrypt (AES-256), EPUB import/export, CLI tool (`convert_cli.py`)
+
+> Full documentation, changelog and FAQ are in Chinese below. Questions? Open an [Issue](https://github.com/songgon/universal-format-converter/issues).
+
+---
+
 ## 使用方法
 
 双击 **`启动转换器.bat`** → 把文件拖进窗口 → 选择目标格式 → 点「开始转换」。
