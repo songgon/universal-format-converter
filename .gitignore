@@ -1,0 +1,13 @@
+.venv/
+绿色版/
+runtime_staging/
+tools/ffmpeg/
+tools/pandoc/
+__pycache__/
+*.pyc
+*.bak
+dist/
+build/
+*.spec
+tests/render/
+nul
