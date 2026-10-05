@@ -1,0 +1,19 @@
+.venv/
+绿色版/
+runtime_staging/
+tools/ffmpeg/
+tools/pandoc/
+__pycache__/
+*.pyc
+*.bak
+dist/
+build/
+*.spec
+tests/render/
+nul
+
+# GitHub 凭据临时文件，永不提交
+tests/.gh_token
+tests/.gh_user
+.gh_token
+.gh_user
